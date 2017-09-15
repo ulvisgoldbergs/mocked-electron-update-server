@@ -68,6 +68,8 @@ get '/update' do
 			if params['platform'] == "win32"
 				content_type :json
 				update_vmware_win32_response.to_json
+			end
+		end
 	else
 		status 204
 	end
