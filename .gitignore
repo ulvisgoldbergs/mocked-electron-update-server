@@ -1,2 +1,4 @@
 client-app-9.9.9.zip
 .DS_Store
+**/*.zip
+**/*.nupkg
